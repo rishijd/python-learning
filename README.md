@@ -5,7 +5,7 @@ I am currently learning: Python for data science (using Anaconda and certain lib
 
 I recently learnt:
 * Web scraping with Python (we scraped Amazon.com products and a basic PDF)
-* Python general programming (ongoing) to ensure I understand the language and powerful data structures associated with it, which is one of the major differences I have learnt so far from PHP.
+* Python general programming (ongoing) to ensure I understand the language and powerful data structures associated with it, which is one of the major differences from PHP that I have learnt so far.
 
 ------
 
