@@ -35,7 +35,7 @@ def buildHTML():
     ## HEADER
     htmlcode = buildHTMLHeader(title, preheader)
 
-    ## PRODUCTS - dict byindex (used for image ID, e.g. p1.jpg) with values [caption, URL] per product). Displaying one brand at a time for this newsletter.
+    ## PRODUCTS - dict by index (used for image ID, e.g. p1.jpg) with values [caption, URL] per product). Displaying one brand at a time for this newsletter.
     products_set1 = {'1': ["Tshirt A", "http://www.mydomain.com/armani/a/"],
                    '2': ["Tshirt B", "http://www.mydomain.com/armani/b/"],
                    '3': ["Tshirt C", "http://www.mydomain.com/armani/c/"],
