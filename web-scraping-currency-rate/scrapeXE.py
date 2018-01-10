@@ -13,7 +13,7 @@ url = "http://www.xe.com/currencyconverter/convert/?Amount=1&From=GBP&To=USD" # 
 page = requests.get(url, headers=headers)
 bsobj = BeautifulSoup(page.content, "html.parser")
 
-rate = bsobj.find("span",{"class":"uccResultAmount"}) # returns the full <span> tag with lots of whitepsace inside from Amazon. This is an object, not a string.
+rate = bsobj.find("span",{"class":"uccResultAmount"}) # returns the full <span> tag including the exchange rate
 print(rate.get_text()) # prints the rate
 
 # I actually want to be notified if the rate goes above a certain threshold, in case I want to trade in the currency at the rate.
