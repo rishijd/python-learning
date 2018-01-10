@@ -1,7 +1,7 @@
 '''
 Script to fetch the currency exchange rate of GBP-USD from xe.com,
-with pseudocode below for further updates I am interested in being alerted of the rate if it goes above a certain threshold.
-This is a base web-scraping script, following a workshop I attended on Python and web scraping, where we scraped Amazon and a PDF.
+with pseudocode below for further updates (if interested in being alerted of the rate going above a certain threshold).
+This is a basic web-scraping script, following a workshop I attended on Python and web scraping, where we scraped Amazon and a PDF.
 (For Amazon, we fetched a product price and then compared it (on a basic level) to other "people also viewed" products in the same category, to find the lowest price.
 '''
 
